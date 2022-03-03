@@ -1,53 +1,197 @@
-*{
-   box-sizing: border-box;
+html{
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif
 }
 
-.Sign_In{
-  background: white;
-  height: 100vh;
+header{
   display: flex;
-  flex-direction: column;
-  align-items: center;   
+  justify-content: center;
 }
 
-.login_logo{
-  margin-top:20px;
-  margin-bottom: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  object-fit: cover;
+#box{
+  border: 1px solid lightgrey;
+  width: 50%;
+  margin: 25%;
+  margin-top: 5%;
+  margin-bottom: 0px;
+  border-radius: 1%;
+}
+
+h1{
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+#email{
+  margin: 0px;
+}
+
+#email h5{
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#email p{
+  border: 2px solid lightgrey;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 5%;
+  box-shadow: 1px 2px 1px 0px grey;
+}
+
+#pw{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 10px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+#pw h5{
+  margin: 5px;
+}
+
+
+.forgot{
+  color:  rgb(106, 172, 196);
+}
+
+.space p{
+  border: 2px solid lightgrey;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  border-radius: 5%;
+  box-shadow: 1px 2px 1px 0px grey;
+}
+
+
+#Continue{
+  border: 1px solid lightgrey;
+  background-color: rgb(238, 176, 62);
+  border-radius: 3%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  text-align: center;
+  height: 35px;
+  box-shadow: 1px 2px 1px 0px grey;
+}
+
+#Continue:hover{
+  box-shadow: none;
+}
+
+#Continue h5{
+  margin: 10px;
+}
+
+.help{
+  margin-left: 10px;
+  color: rgb(106, 172, 196);
+  font-weight: 300;
+  
+}
+
+.forgot:hover{
+  color: rgb(238, 176, 62);
+}
+
+
+body .help:hover{
+  color: rgb(238, 176, 62);
+}
+
+
+
+
+
+
+
+#line{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 50px;
+  margin: 0px;
+
 }
 
-.login_logo > img{
-  width: 200px;
+#line p{
+  border: 0.5px solid lightgrey;
+  padding-left: 160px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
 }
 
-.login_container{
-  width: 300px;
-  height: fit-content;
-  display:flex;
-  flex-direction:column;
-  border-radius: 7px;
-  box-shadow: 0px 1px 2px 3px rgba(0,0,0,0,1);
-  border: 1pz solid gray;
-  padding:15px;
+#line h5{
+  margin-top: 0px;
+  color: grey;
+
 }
 
-.login_container > form > input{
+#line article{
+  margin: 0px;
+}
+
+.new{
   height: 30px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  outline: none;
-  width: 98%;
-  border:1px solid gray;
 }
 
-.continueButton{
-  background-color: orange;
+
+
+#create article{
+  border: 1.5px solid rgb(175, 175, 175);
+  border-radius: 3%;
+  background-color: rgb(224, 224, 224);
+  padding: 0px;
+  width: 46%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  box-shadow: 1px 2px 1px 0px grey;
 }
 
-.Ending{
-  display:inline;
+#create article:hover{
+  box-shadow: none;
 }
+
+#create h5{
+  margin: 8px;
+  text-align: center;
+}
+
+footer{
+  border-top: 1px solid lightgrey;
+  margin-top: 0px;
+  text-align: center;
+  color: grey;
+}
+
+
+
+footer li{
+  display: inline-flex;
+  padding: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(106, 172, 196);
+  margin-right: 15px;
+}
+
+footer li:hover{
+  color: rgb(238, 176, 62);
+}
+
+.no:hover ~ #notstinky{
+  display: block;
+}
+
